@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dotafriendly.usth.edu.vn.dotafriendly">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NewsQueue"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/activity_searchable" />
+        </activity>
+        <activity
+            android:name=".HeroesActivity"
+            android:label="Heroes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PlayersActivity"
+            android:label="Players"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MatchesActivity"
+            android:label="Matches"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ItemsActivity"
+            android:label="Items"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SearchableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="News"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".WebViewingActivity"></activity>
+    </application>
+
+</manifest>

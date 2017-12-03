@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dotafriendly.usth.edu.vn.dotafriendly.AllHero"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageButton
+                android:id="@+id/AbaddonButton"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/abaddon_sb"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/AlchemistButton"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/alchemist_sb"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/AA"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ancient_apparition_sb" />
+
+            <ImageButton
+                android:id="@+id/AntiMage"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/antimage_sb" />
+
+            <ImageButton
+                android:id="@+id/ArcWarden"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/arc_warden_sb" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Axe"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/axe_sb" />
+
+            <ImageView
+                android:id="@+id/bane"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bane_sb" />
+
+            <ImageView
+                android:id="@+id/batrider"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/batrider_sb" />
+
+            <ImageView
+                android:id="@+id/beastmaster"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/beastmaster_sb" />
+
+            <ImageView
+                android:id="@+id/bloodseeker"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bloodseeker_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/BountyHunter"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bounty_hunter_sb" />
+
+            <ImageView
+                android:id="@+id/brewmaster"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/brewmaster_sb" />
+
+            <ImageView
+                android:id="@+id/bristleback"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bristleback_sb" />
+
+            <ImageView
+                android:id="@+id/broodmother"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/broodmother_sb" />
+
+            <ImageView
+                android:id="@+id/centaur"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/centaur_sb" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ChaosKnight"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/chaos_knight_sb" />
+
+            <ImageView
+                android:id="@+id/chen"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/chen_sb" />
+
+            <ImageView
+                android:id="@+id/clinkz"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/clinkz_sb" />
+
+            <ImageView
+                android:id="@+id/cm"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/crystal_maiden_sb" />
+
+
+            <ImageView
+                android:id="@+id/darkseer"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dark_seer_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dazzle"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dazzle_sb" />
+
+            <ImageView
+                android:id="@+id/dp"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/death_prophet_sb" />
+
+            <ImageView
+                android:id="@+id/disruptor"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/disruptor_sb" />
+
+            <ImageView
+                android:id="@+id/doom"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/doom_bringer_sb" />
+
+
+            <ImageView
+                android:id="@+id/dk"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dragon_knight_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/drow"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/drow_ranger_sb" />
+
+            <ImageView
+                android:id="@+id/earthspirit"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/earth_spirit_sb" />
+
+            <ImageView
+                android:id="@+id/earthshaker"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/earthshaker_sb" />
+
+            <ImageView
+                android:id="@+id/eldertitan"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/elder_titan_sb" />
+
+
+            <ImageView
+                android:id="@+id/ember"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ember_spirit_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/enchant"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/enchantress_sb" />
+
+            <ImageView
+                android:id="@+id/enigma"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/enigma_sb" />
+
+            <ImageView
+                android:id="@+id/fvoid"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/faceless_void_sb" />
+
+            <ImageView
+                android:id="@+id/furion"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/furion_sb" />
+
+
+            <ImageView
+                android:id="@+id/gyro"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/gyrocopter_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/huskar"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/huskar_sb" />
+
+            <ImageView
+                android:id="@+id/invoker"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/invoker_sb" />
+
+            <ImageView
+                android:id="@+id/jakio"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/jakiro_sb" />
+
+            <ImageView
+                android:id="@+id/jug"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/juggernaut_sb" />
+
+
+            <ImageView
+                android:id="@+id/kotl"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/keeper_of_the_light_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/kunkka"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kunkka_sb" />
+
+            <ImageView
+                android:id="@+id/lc"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/legion_commander_sb" />
+
+            <ImageView
+                android:id="@+id/leshrac"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/leshrac_sb" />
+
+            <ImageView
+                android:id="@+id/lich"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lich_sb" />
+
+
+            <ImageView
+                android:id="@+id/naix"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/life_stealer_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/lina"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lina_sb" />
+
+            <ImageView
+                android:id="@+id/lion"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lion_sb" />
+
+            <ImageView
+                android:id="@+id/lonedruid"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lone_druid_sb" />
+
+            <ImageView
+                android:id="@+id/luna"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/luna_sb" />
+
+
+            <ImageView
+                android:id="@+id/lycan"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lycan_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/magnus"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/magnataur_sb" />
+
+            <ImageView
+                android:id="@+id/medusa"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/medusa_sb" />
+
+            <ImageView
+                android:id="@+id/meepo"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/meepo_sb" />
+
+            <ImageView
+                android:id="@+id/mirana"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/mirana_sb" />
+
+
+            <ImageView
+                android:id="@+id/morphing"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/morphling_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/naga"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/naga_siren_sb" />
+
+            <ImageView
+                android:id="@+id/necro"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/necrolyte_sb" />
+
+            <ImageView
+                android:id="@+id/sf"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/nevermore_sb" />
+
+            <ImageView
+                android:id="@+id/ns"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/night_stalker_sb" />
+
+
+            <ImageView
+                android:id="@+id/nyx"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/nyx_assassin_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/od"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/obsidian_destroyer_sb" />
+
+            <ImageView
+                android:id="@+id/ogre"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ogre_magi_sb" />
+
+            <ImageView
+                android:id="@+id/omni"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/omniknight_sb" />
+
+            <ImageView
+                android:id="@+id/oracle"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/oracle_sb" />
+
+
+            <ImageView
+                android:id="@+id/pa"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/phantom_assassin_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/pl"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/phantom_lancer_sb" />
+
+            <ImageView
+                android:id="@+id/phoenix"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/phoenix_sb" />
+
+            <ImageView
+                android:id="@+id/puck"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/puck_sb" />
+
+            <ImageView
+                android:id="@+id/pudge"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pudge_sb" />
+
+
+            <ImageView
+                android:id="@+id/pugna"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pugna_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/qop"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/queenofpain_sb" />
+
+            <ImageView
+                android:id="@+id/clock"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/rattletrap_sb" />
+
+            <ImageView
+                android:id="@+id/razor"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/razor_sb" />
+
+            <ImageView
+                android:id="@+id/riki"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/riki_sb" />
+
+
+            <ImageView
+                android:id="@+id/rubick"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/rubick_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/sk"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sand_king_sb" />
+
+            <ImageView
+                android:id="@+id/sd"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/shadow_demon_sb" />
+
+            <ImageView
+                android:id="@+id/rasta"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/shadow_shaman_sb" />
+
+            <ImageView
+                android:id="@+id/timber"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/shredder_sb" />
+
+
+            <ImageView
+                android:id="@+id/silencer"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/silencer_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/wk"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/skeleton_king_sb" />
+
+            <ImageView
+                android:id="@+id/sky"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/skywrath_mage_sb" />
+
+            <ImageView
+                android:id="@+id/sladar"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/slardar_sb" />
+
+            <ImageView
+                android:id="@+id/slark"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/slark_sb" />
+
+
+            <ImageView
+                android:id="@+id/sniper"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sniper_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/spec"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spectre_sb" />
+
+            <ImageView
+                android:id="@+id/spiritbreaker"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spirit_breaker_sb" />
+
+            <ImageView
+                android:id="@+id/storm"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/storm_spirit_sb" />
+
+            <ImageView
+                android:id="@+id/sven"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sven_sb" />
+
+
+            <ImageView
+                android:id="@+id/techies"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/techies_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ta"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/templar_assassin_sb" />
+
+            <ImageView
+                android:id="@+id/tb"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/terrorblade_sb" />
+
+            <ImageView
+                android:id="@+id/tide"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tidehunter_sb" />
+
+            <ImageView
+                android:id="@+id/tinker"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tinker_sb" />
+
+
+            <ImageView
+                android:id="@+id/tiny"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tiny_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/treant"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/treant_sb" />
+
+            <ImageView
+                android:id="@+id/troll"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/troll_warlord_sb" />
+
+            <ImageView
+                android:id="@+id/tusk"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tusk_sb" />
+
+            <ImageView
+                android:id="@+id/undying"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/undying_sb" />
+
+
+            <ImageView
+                android:id="@+id/ursa"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ursa_sb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/vs"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vengefulspirit_sb" />
+
+            <ImageView
+                android:id="@+id/ww"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/winter_wyvern_sb" />
+
+            <ImageView
+                android:id="@+id/io"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/wisp_sb" />
+
+            <ImageView
+                android:id="@+id/witchdoctor"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/witch_doctor_sb" />
+
+
+            <ImageView
+                android:id="@+id/zues"
+                android:layout_width="59dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zuus_sb" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
