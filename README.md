@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: Truong Hai Long
+* ID: USTHBI6-089
+* Group ID: 2 (I don't exactly remember our group ID )
+* Project Name: DotaBuff
