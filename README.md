@@ -12,5 +12,5 @@ Student Info
 
 * Name: Truong Hai Long
 * ID: USTHBI6-089
-* Group ID: 2 (I don't exactly remember our group ID )
+* Group ID: 2 (I don't exactly remember our group ID)
 * Project Name: DotaBuff
